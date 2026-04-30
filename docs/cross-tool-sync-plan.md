@@ -67,6 +67,7 @@ Use the repo as the durable technical source:
 Branch and PR convention:
 
 - `plan/bootstrap-docs`
+- `docs/m1-streaming-poc-prep`
 - `infra/aws-gpu-host-poc`
 - `app/control-plane-shell`
 - `library/upload-import-pipeline`
@@ -84,9 +85,11 @@ Create a project:
 - Milestones:
   - `M0 Planning Sync`
   - `M1 Streaming Proof Of Concept`
-  - `M2 Control Plane Shell`
-  - `M3 Upload And Library Pipeline`
-  - `M4 Hardening And Cost Guardrails`
+  - `M2 Infrastructure Baseline`
+  - `M3 Control Plane Shell`
+  - `M4 Upload And Library Pipeline`
+  - `M5 Streaming Hardening`
+  - `M6 Browser-Only Alternative Spike`
 
 Use Linear for execution state only. Avoid storing long-form architecture there;
 link back to Notion/GitHub for durable explanations.
@@ -117,4 +120,3 @@ Then cross-link them in this order:
 2. Put Notion page URL in the Linear project description.
 3. Put Figma file URL in Notion and Linear.
 4. Put Notion, Figma, and Linear URLs in the GitHub PR body.
-
