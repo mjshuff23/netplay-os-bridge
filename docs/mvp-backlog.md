@@ -10,8 +10,12 @@
 
 ## M1 Streaming Proof Of Concept
 
+- Prep docs:
+  - [Streaming POC Runbook](runbooks/streaming-poc.md)
+  - [M1 Play-Test Checklist](checklists/m1-playtest.md)
+  - [AWS Region And Instance Notes](research/aws-region-instance-notes.md)
 - Pick the first AWS region based on both players' locations.
-- Provision a single Windows GPU EC2 instance manually or with throwaway
+- Provision a single Windows GPU EC2 instance manually, without committed
   Terraform.
 - Install NVIDIA driver, Parsec, RetroArch, and baseline audio/display support.
 - Validate Parsec host access for owner and guest.
@@ -65,4 +69,3 @@
 - Compare controller reliability, latency feel, browser friction, and app
   compatibility against Parsec.
 - Decide whether browser-only becomes a later mode or stays out of scope.
-
